@@ -31,12 +31,15 @@ double CalculatorClass::calculate(double a, char opr, double b)
 		break;
 	case '-':
 		result = a - b;
+		outputFile << a << " - " << b << " = " << result;
 		break;
 	case '*':
 		result = a * b;
+		outputFile << a << " * " << b << " = " << result;
 		break;
 	case '/':
 		result = a / b;
+		outputFile << a << " / " << b << " = " << result;
 		break;
 	default: 
 		break;
